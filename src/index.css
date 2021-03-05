@@ -31,11 +31,13 @@ a {
   height: 100%;
 }
 a:hover {
-  color: #a44fcc;
+  color: skyblue;
+  letter-spacing: 3px;
+  transition: 1s all ease-in;
 }
 header {
   grid-area: header;
-  background-color: #2030405b;
+  background-color: #20305b;
   color: #ffffff;
   display: flex;
   align-items: center;
