@@ -125,6 +125,7 @@ export default class Cart extends Component {
                 </Fade>
               )}
             </div>
+            
           )}
         </div>
       </div>
