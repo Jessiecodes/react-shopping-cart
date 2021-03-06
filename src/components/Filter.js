@@ -59,8 +59,4 @@ export default connect(
     filterProducts,
     sortProducts,
   }
-<<<<<<< HEAD
 )(Filter);
-=======
-)(Filter);
->>>>>>> 45b97fe7454fd24cb0bd58abbe8dd0d4247bc3ac

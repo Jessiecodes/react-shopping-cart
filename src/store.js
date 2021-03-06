@@ -10,7 +10,7 @@ const store = createStore(
   combineReducers({
     products: productsReducer,
     cart: cartReducer,
-    order: orderReducer
+    order: orderReducer,
   }),
   initialState,
   composeEnhancer(applyMiddleware(thunk))

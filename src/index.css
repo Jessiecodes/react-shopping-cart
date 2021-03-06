@@ -40,6 +40,9 @@ header {
   background-color: #20305b;
   color: #ffffff;
   display: flex;
+
+  justify-content: space-between;
+
   align-items: center;
   padding: 0.5rem;
 }
@@ -194,7 +197,6 @@ input {
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
 }
-
 /* Product Details */
 .product-details {
   display: flex;
@@ -241,4 +243,18 @@ input {
 }
 .success-message {
   color: green;
+}
+/* Orders */
+.orders {
+  width: 100%;
+  padding: 10px;
+}
+tbody > tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+td {
+  padding: 5px;
+}
+th {
+  text-align: left;
 }
